@@ -1,0 +1,73 @@
+body{
+    /* background-color: yellow; */
+}
+#navbar{
+    background-color: skyblue;
+    
+    width: 100%;
+    border: 1px solid red;
+    margin: auto;
+    /* display: flex; */
+}
+#first{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    font-size: 12px;
+    font-family: BentonSans-Bold,Arial, "Noto Sans";
+    margin: auto;
+    color: #FFF;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#second{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    font-size: 10px;
+
+}
+
+
+#second > div > div{
+    display: flex;
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+
+}
+#second > div > div~div{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#second > div{
+    width: 24%;
+    height: 170px;
+    border: 1px solid red;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+#second > div > div+div+div>div{
+    display: flex;
+    
+}
+#second > div > div+div>img{
+    width: 20px;
+    height: 20px;
+   
+}
+
+
+#second{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+
