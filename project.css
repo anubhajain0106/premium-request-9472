@@ -69,5 +69,22 @@ body{
     margin-bottom: 0px;
 
 }
+#third{
+    display: flex;
+    border: 1px solid red;
+    margin-top: 20px;
+    background-color: rgb(84, 181, 181);
+}
+
+#third > div > img{
+border: 1px solid red;
+width: 80px; 
+}
+#third > div{
+    display: flex;
+    border: 1px solid red;
+    margin-top: 20px;
+    background-color: rgb(84, 181, 181);
+}
 
 
