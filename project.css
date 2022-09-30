@@ -1,0 +1,230 @@
+body{
+    /* background-color: yellow; */
+}
+#navbar{
+    background-color: #0569ff;
+    
+    width: 100%;
+    border: 1px solid red;
+    margin: auto;
+    height: 260px;
+    /* display: flex; */
+}
+#first{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    font-size: 12px;
+    font-family: BentonSans-Bold,Arial, "Noto Sans";
+    margin: auto;
+    color: #FFF;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#second{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    font-size: 10px;
+
+}
+
+
+#second > div > div{
+    display: flex;
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
+    
+
+}
+#second > div > div~div{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+#second > div{
+    width: 24%;
+    height: 170px;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+#second > div > div+div+div>div{
+    display: flex;
+    /* border: 1px solid red; */
+    
+}
+#second > div > div+div>img{
+    width: 20px;
+    height: 20px;
+   
+}
+hr+div>p{
+    /* border: 1px solid; */
+    width: 50px;
+    height: 20px;
+    margin-block-start: 20px;
+    margin: auto;
+    text-align: right;
+    font-size: small;
+    color: rgb(46, 46, 46);
+}
+
+
+#second{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+#third{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #04c8f5;
+    color: #FFF;
+    width: auto;
+    height: 40px;
+}
+
+#third > div > img{
+/* border: 1px solid red; */
+width: 80px;
+height: 25px; 
+margin: auto;
+}
+#third > div{
+    display: flex;
+    /* border: 1px solid red; */
+    margin-top: 5px;
+    background-color: #04c8f5;
+    text-align: center;
+    width: 600PX;
+}
+#third > div+div{
+    /* border: 1px solid yellow; */
+    width: 400px;
+}
+#third > div > img ~ div{
+    /* background-color: aqua; */
+    /* justify-content: space-around; */
+    /* border: 1px solid blue; */
+    /* width: 1000px; */
+    height: 20px;
+    margin: auto;
+    margin-left: 5px;
+    color: #FFF;
+
+}
+#icon {
+    color: #FFF;
+    /* border: 1px solid blue; */
+    margin-left: 70px;
+    width: 20PX;
+
+}
+#icon > div{
+    color: #FFF;
+    /* border: 1px solid blue; */
+    /* margin-left: 70px; */
+    width: 100PX;
+    margin: auto;
+
+}
+#middle{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-around;
+    box-shadow: 0 0 10px;
+margin-top: 20px;
+}
+#left{
+    /* border: 1px solid red; */
+    width: 25%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 180px;
+}
+#cri{
+    width: 100px;
+    margin: auto;
+    /* border: 1px solid red; */
+   
+}
+#cri>img{
+    width: 100px;  
+}
+
+#one>div>p{
+    width: 220px;
+    /* border: 1px solid red; */
+    margin: auto;  
+    text-align: center;
+}
+#two{
+    display: flex;
+    border: 1px solid rgb(27, 98, 203);
+    border-radius: 20px;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    color:  rgb(27, 98, 203);
+}
+
+#two>svg{
+    margin-left: 20px;
+    /* border: 1px solid rgb(27, 98, 203); */
+    
+}
+
+#mid{
+    border: 1px solid red;
+    width:45% ;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+#mid>p+hr+div>img{
+    width: 570px;
+    height: 438px;
+    border: 1px solid ;
+    /* margin-top: 20px; */
+    border-radius: 10px;
+    
+}
+#mid p{
+    margin-left: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:  rgb(27, 98, 203);
+    font-weight: bold;
+    font-size: 10px;
+
+}
+#mid>p+hr+div{
+    width: 570px;
+    height: 438px;
+    border: 1px solid ;
+    margin: auto;
+}
+/* #right{
+    border: 1px solid red;
+    width: 26%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+} */
+
+#right{
+    border: 1px solid red;
+    width: 26%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px;
+}
