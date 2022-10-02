@@ -102,6 +102,7 @@ hr+div>p{
     color: #FFF;
     width: auto;
     height: 40px;
+    cursor: pointer;
 }
 
 #third > div > img{
@@ -159,7 +160,7 @@ margin: auto;
     /* border: 1px solid red; */
     width: 25%;
     border-radius: 10px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin-bottom: 20px;
     margin-top: 20px;
     padding-top: 20px;
@@ -293,7 +294,7 @@ hr+div>p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 20px;
     margin-bottom: 10px;
     background-color: #04c8f5;
@@ -304,7 +305,7 @@ hr+div>p{
 }
 
 #third > div > img{
-border: 0px solid black;
+/* border: 0px solid black; */
 width: 100px;
 height: 20px; 
 margin: auto;
@@ -359,9 +360,9 @@ margin: auto;
 }
 #left{
     /* border: 1px solid red; */
-    width: 23%;
+    width: 19%;
     border-radius: 10px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin-bottom: 20px;
     margin-top: 20px;
     padding-top: 20px;
@@ -400,6 +401,7 @@ margin: auto;
 #two>svg{
     margin-left: 20px;
     /* border: 1px solid rgb(27, 98, 203); */
+    height: 40%;
     
 }
 
@@ -408,7 +410,7 @@ margin: auto;
     width:45% ;
     border-radius: 10px;
     margin-top: 20px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     
 }
 #mid>p+hr+div>img{
@@ -435,19 +437,21 @@ margin: auto;
 }
 
 
-/* 
-} */
+
 
 #right{
     border: 0px solid black;
     width: 25%;
     border-radius: 10px;
-    box-shadow: 0 0 1px;
     margin-top: 20px;
     height: 300px;
     font-size: small;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-right:20px;
+    padding-bottom :20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    /* border: 1px solid red; */
 }
 #right>div{
     margin-left: 20px;
@@ -455,9 +459,10 @@ margin: auto;
 }
 #right-one{
     width: 100%;
-margin-left: 20px;
+/* margin-left: 20px; */
 margin-bottom: 10px;
 margin-top: 10px;
+/* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
 
 }
 .temp{
@@ -483,7 +488,7 @@ margin-top: 10px;
 #box>div{
     /* border: 1px solid red; */
     width: 180px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 10px;
     color: rgb(46, 44, 44);
 
@@ -493,7 +498,7 @@ margin-top: 10px;
     width: 178px;
     height: 120px;
     border-radius: 10px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     
 }
 #box>div>img~h6{
@@ -519,7 +524,7 @@ margin-top: 10px;
     /* border: 1px solid red;  */
     /* width: 200px; */
     border-radius: 10px;
-    /* box-shadow: 0 0 1px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin-top: 100px;
     height: 600px;
     font-size: small;
@@ -529,7 +534,7 @@ margin-top: 10px;
 #box3{
     /* border: 1px solid red; */
     border-radius: 10px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin-right: 100px;
     width:328px;
     margin-top: 40px;
@@ -537,7 +542,7 @@ margin-top: 10px;
 #box3>div>img{
     /* border: 1px solid red; */
     border-radius: 10px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     width:310px ;
     margin-top: 10px;
     padding: auto;
@@ -584,7 +589,7 @@ margin-top: 10px;
 #box4>div{
     /* border: 1px solid red; */
     width: 180px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 10px;
     color: rgb(46, 44, 44);
 
@@ -594,7 +599,7 @@ margin-top: 10px;
     width: 178px;
     height: 120px;
     border-radius: 10px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     
 }
 #box4>div>img~h6{
@@ -608,7 +613,7 @@ h2,h5{
 #box5{
     
     border-radius: 10px;
-    /* box-shadow: 0 0 1px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin-top: 20px;
     height: 200px;
     font-size: small;
@@ -686,8 +691,6 @@ margin-left: 20px;
     width: 80%;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}98, 203); */
-    
 }
 
 #mid{
@@ -695,7 +698,7 @@ margin-left: 20px;
     width:45% ;
     border-radius: 10px;
     margin-top: 20px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     
 }
 #mid>p+hr+div>img{
@@ -767,7 +770,7 @@ margin-top: 10px;
 #box>div{
     /* border: 1px solid red; */
     width: 180px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 10px;
     color: rgb(46, 44, 44);
 
@@ -777,7 +780,7 @@ margin-top: 10px;
     width: 178px;
     height: 120px;
     border-radius: 10px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     
 }
 #box>div>img~h6{
@@ -801,9 +804,9 @@ margin-top: 10px;
 }
 #box2{
     /* border: 1px solid red;  */
-    width: 330px;
+    width: 95%;
     border-radius: 10px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin-top: 100px;
     height: 600px;
     font-size: small;
@@ -811,7 +814,7 @@ margin-top: 10px;
 #box3{
     /* border: 1px solid red; */
     border-radius: 10px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin-right: 100px;
     width:328px;
     margin-top: 40px;
@@ -819,7 +822,7 @@ margin-top: 10px;
 #box3>div>img{
     /* border: 1px solid red; */
     border-radius: 10px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     width:310px ;
     margin-top: 10px;
     padding: auto;
@@ -833,7 +836,7 @@ margin-top: 10px;
     width:600px ;
     border-radius: 10px;
     margin-top: 20px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     
 }
 #mid1>p+hr+div>img{
@@ -866,7 +869,7 @@ margin-top: 10px;
 #box4>div{
     /* border: 1px solid red; */
     width: 180px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 10px;
     color: rgb(46, 44, 44);
 
@@ -876,7 +879,7 @@ margin-top: 10px;
     width: 178px;
     height: 120px;
     border-radius: 10px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     
 }
 #box4>div>img~h6{
@@ -888,16 +891,31 @@ h2,h5{
 }
 
 #box5{
-    width: 290px;
+    width: 80%;
     border-radius: 10px;
-    box-shadow: 0 0 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     margin-top: 20px;
     height: 200px;
     font-size: small;
     padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    /* border: 1px solid red; */
 }
 #box6{
 margin-left: 20px;
+}
+#footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 20px;
+}
+.heading{
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 0%;
+    width: 230px;
 }
